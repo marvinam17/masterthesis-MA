@@ -1,3 +1,5 @@
 *.override.yml
 .env
+raw_data/*
 neo4j_db/*
+*.csv
