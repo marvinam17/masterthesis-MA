@@ -1,3 +1,5 @@
+> [!NOTE]  
+> Result files (all .json) were removed from the repo as they were living in lfs and caused monthly cost. As this project is done the data was removed from lfs and can be provided by creating an issue.
 
 # Masterthesis: Informationsextraktion aus Wissensgraphen: Eine Untersuchung moderner Retrieval-Methoden
 
