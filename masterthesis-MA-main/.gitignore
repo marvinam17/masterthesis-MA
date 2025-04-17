@@ -1,0 +1,9 @@
+__pycache__/
+*.override.yml
+.env
+raw_data/*
+neo4j_db/*
+*.parquet
+*.jsonl
+*.ttl
+*.bin

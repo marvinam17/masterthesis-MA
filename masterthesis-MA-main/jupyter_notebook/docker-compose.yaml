@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  jupyter:
+    container_name: jupyter_notebook
+    ports:
+      - "8888:8888"
+    volumes:
+      - ../:/home/jovyan/work/
+    environment:
+      JUPYTER_ENABLE_LAB: "yes"
+    command: start-notebook.sh --NotebookApp.token='' --NotebookApp.password=''
+    build:
+      context: .
+      dockerfile: Dockerfile
